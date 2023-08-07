@@ -1,0 +1,9 @@
+import React from "react";
+
+type SectionHeaderProps = {
+	children: React.ReactNode;
+};
+
+export default function SectionHeading({ children }: SectionHeaderProps) {
+	return <h2 className=" capitalize text-3xl font-medium mb-8 text-center">{children}</h2>;
+}
